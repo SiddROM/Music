@@ -3,7 +3,7 @@ it's pyrogram userbot made with love
 
 Meow UserBot
 
-[![MEOWBOT LOGO](https://telegra.ph/file/3c2932815330a143fa1a8.png)](https://t.me/Murat_30_God )
+[![MEOWBOT LOGO](https://telegra.ph/file/3c2932815330a143fa1a8.png)](https://t.me/+vrllWKqGDHxmNWQ0)
 
 Generate-pyrogram-session-string - Replit
 https://replit.com/@dashezup/generate-pyrogram-session-string
