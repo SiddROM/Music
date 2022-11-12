@@ -1,13 +1,13 @@
 {
-    "name": "Meow Userbot",
-    "description": "Pyrogram userbot with music system.",
+    "name": "Sherif UserBot",
+    "description": "Telegram: T.me/@Sherif_Sami",
     "logo": "",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/kaal0408/Meow",
+    "repository": "https://github.com/Sherif-Sami/Music",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
