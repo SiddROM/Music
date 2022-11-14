@@ -28,7 +28,6 @@ manjeet += f"➠ **current Branch** : `Master`\n"
 manjeet += f"➠ **VC Modulesc** : `Allow`\n"
 manjeet += f"➠ **Channel** : [Updates](t.me/Sherif_World)\n"
 manjeet += f"➠ **Group** : [Support](https://t.me/+vrllWKqGDHxmNWQ0)\n"
-manjeet += f"• **Repo** : [Deploy](https://github/Sherif-Sami/Music)\n"
 manjeet += f"━────────────────━\n"
 
 
