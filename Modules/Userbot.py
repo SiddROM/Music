@@ -82,12 +82,92 @@ async def alive(xspam: Client, e: Message):
 
 
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["restart", "reboot"], prefixes=HNDLR))
-@Client.on_message(filters.me & filters.command(["restart", "reboot"], prefixes=HNDLR))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["help", "cmds"], prefixes=HNDLR))
+@Client.on_message(filters.me & filters.command(["help", "cmds"], prefixes=HNDLR))
 async def restart_bot(_, message: Message):
     msg = await message.reply("`restarting bot...`")
     args = [sys.executable, "main.py"]
-    await msg.edit("✅ Bot restarted\n\n• Source by : @Sherif_Sami </>.")
+    await msg.edit("🕹 Commands of Sherif Userbot/n/n━────────────────━
+
+skip - To skip the song
+
+end - To end the song
+
+resume - To resume the song
+
+play - To play any song in VC
+
+vplay - To play and video in VC
+
+playform - To change playing data
+
+playlist,queue- To cheçk waiting song
+
+song - To get a song
+
+vsong- To get a video song
+
+broadcast,gcast - For broadcast msg
+
+dmraid - For dm raid
+
+dm - for dm raid
+
+dmspam - For dm spam
+
+kickall - For kickall members
+
+deplayspam - To deplay any spam
+
+pornspam - For porn spam
+
+raid - For raid 
+
+fspam - For fast spam
+
+ping - To cheçk ping
+
+alive - For check bot alive
+
+restart - To restart the bot
+
+git <Username> - To cheçk GitHub
+
+id - To get group id
+
+info - To cheçk information
+
+join<username>- To join group or channel
+
+leave <username>- To leave group or channel
+
+mute - To mute someone
+
+pin - To pin something
+
+setpic - To set any pic in profile
+
+setname - To set profile name
+
+setbio - To set a bio
+
+purge - To purge msg
+
+stats- To cheçk user stats
+
+tm - To make picture into link
+
+tts - msg change into voice msg
+
+unpin- To unpin msg
+
+inviteall - For member adding
+
+━────────────────━/n/n👨‍💻 Source by : @Sherif_Sami
+
+📨 Trust guide : @Trust_Sherif
+
+© Copy rights : @Sherif_World")
     execle(sys.executable, *args, environ)
     return
             
