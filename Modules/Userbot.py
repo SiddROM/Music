@@ -30,7 +30,7 @@ manjeet += f"➠ **Channel** : [Updates](t.me/Sherif_World)\n"
 manjeet += f"➠ **Group** : [Support](https://t.me/+vrllWKqGDHxmNWQ0)\n"
 manjeet += f"━────────────────━\n\n"
 manjeet += f"• **Repo** : [Click here](https://github/Sherif-Sami/Music)\n"
-manjeet += f"• **Commands** : [Click here](t.me/Sherif_Music/2)"
+manjeet += f"• **Commands** : [Click here](t.me/Sherif_Music/2)\n"
 
 
 async def get_time(seconds: int) -> str:
@@ -87,7 +87,7 @@ async def alive(xspam: Client, e: Message):
 async def restart_bot(_, message: Message):
     msg = await message.reply("`restarting bot...`")
     args = [sys.executable, "main.py"]
-    await msg.edit("✅ bot restarted\n\n• now you can use this bot again.")
+    await msg.edit("✅ Bot restarted\n\n• Source by : @Sherif_Sami </>.")
     execle(sys.executable, *args, environ)
     return
             
