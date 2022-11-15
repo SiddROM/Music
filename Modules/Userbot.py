@@ -12,7 +12,7 @@ from pyrogram import __version__ as pyro_vr
                 
 
 pongg = PING_MSG if PING_MSG else "sʜᴇʀɪғ ɪs ᴏɴ ғɪʀᴇ"
-KAAL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/3cb0edbe9c73edaa676d4.jpg"
+KAAL_PIC = ALIVE_PIC if ALIVE_PIC else "https://f.top4top.io/p_2510rk9091.jpg"
 Alivemsg = ALIVE_MSG if ALIVE_MSG else "sʜᴇʀɪғ ɪs ᴏɴʟɪɴᴇ ɴᴏᴡ"
 
 
@@ -80,12 +80,12 @@ async def alive(xspam: Client, e: Message):
 
 
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["restart", "reboot"], prefixes=HNDLR))
-@Client.on_message(filters.me & filters.command(["restart", "reboot"], prefixes=HNDLR))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["restart", "sherif"], prefixes=HNDLR))
+@Client.on_message(filters.me & filters.command(["restart", "sherif"], prefixes=HNDLR))
 async def restart_bot(_, message: Message):
     msg = await message.reply("`restarting bot...`")
     args = [sys.executable, "main.py"]
-    await msg.edit("✅ Bot restarted\n👨‍💻 Source by : @Sherif_Sami </>.")
+    await msg.edit("`Bot restarted Source by @Sherif_Sami`")
     execle(sys.executable, *args, environ)
     return
             
